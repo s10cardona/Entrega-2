@@ -7,16 +7,16 @@
 #include "Fila.h"
 #include "Jugador.h"
 
-// Se utiliza el espacio de nombres std
+
 using namespace std;
 
 class Juego {
 private:
     Mazo* mazo;
-    vector<Fila*> filas; // Se quita std::
-    vector<Jugador*> jugadores; // Se quita std::
+    vector<Fila*> filas; 
+    vector<Jugador*> jugadores; 
     int numeroJugadores;
-    vector<int> coloresEnJuego; // Se quita std::
+    vector<int> coloresEnJuego;
 public:
     Juego();
     ~Juego();
